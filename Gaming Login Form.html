@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://localhost/NextLevelTech%20main%20main/login/login.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Gaming Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="./Gaming Login Form_files/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="./Gaming Login Form_files/registration.css">
+    <style>
+        #li-regs {
+            color: #fff;
+        }
+
+        #li-regs:hover {
+            color: dodgerblue;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="padding-all">
+        <div class="header">
+            <h1><img src="./Gaming Login Form_files/5.png"> Gaming Login Form</h1>
+        </div>
+
+        <div class="design-w3l">
+            <div class="mail-form-agile">
+                
+                <form name="loginForm" onsubmit="return validateForm()" action="http://localhost/NextLevelTech%20main%20main/login/loginCode.php" method="POST">
+                    <input type="text" name="email" placeholder="Email..." required="">
+                    <p id="emailError" class="error"></p>
+
+                    <br><br>
+                    <input type="password" name="password" placeholder="Password..." required="">
+                    <p id="passwordError" class="error"></p>
+
+                    <br><br>
+                    <input type="submit" name="login" value="Login"><br><br>
+
+                    <a id="li-regs" href="http://localhost/NextLevelTech%20main%20main/login/registration.php">Create a new account</a>
+                   <br>
+                    <a id="li-regs" href="http://localhost/NextLevelTech%20main%20main/login/forgotPassword.php">Forgot Password</a>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Gaming Login form. All Rights Reserved | Design by <a href="http://localhost/NextLevelTech%20main%20main/login/login.php#">Group 5</a></p>
+        </div>
+    </div>
+
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+
+
+
+</body></html>
